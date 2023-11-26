@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>FIRST WEB PRACTICE</title>
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+          <img src="Assets/mahiruw-up.png" alt="logo" class="logo-img">
+          <h1 class="logo-tittle">tanmraa</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">ITEMS</a></li>
+                <li><a href="https://twitter.com/tanmraa">CONTACT</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirWorks()">mY Works</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, tanmraa here</p>
+        <p class="description">I've been doing editing for 2 years now</p>
+        <img src="Assets/mahiru pp.png" alt="tanmraa profile" class="img-foto">
+      </div>
+      <div class="parallax">
+        <div class="tentang">
+          <p class="title">I'm also open commision for VTuber Stuff</p>
+          <p class="description">DM me on Twitter/discord if you interested^^</p>
+          <div class="mt-10">
+            <button class="btn-cta" onclick="redirTwitter()">Contact Me!</button>
+          </div>
+        </div>
+        <div class="container">
+            <div class="card" id="jasa">
+              <div class="card-item">
+                <ion-icon name="fastforward" class="item-icon"></ion-icon>
+                <p class="card-title">Stinger</p>
+                <p class="card-description">Around 15$ - 25$</p>
+              </div>
+              <div class="card-item">
+                <ion-icon name="cut" class="item-icon"></ion-icon>
+                <p class="card-title">Debut Video</p>
+                <p class="card-description">Around 45$ - 60$</p>
+              </div>
+              <div class="card-item">
+                <ion-icon name="albums" class="item-icon"></ion-icon>
+                <p class="card-title">Music Video</p>
+                <p class="card-description">Around 45$ - 100$</p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <footer>
+        <p class="title">&copy; tanmraa card website 2023</p>
+      </footer>
+
+      <script>
+        function redirWorks() {
+          window.location.href = "https://tanmraa.carrd.co/#myworks"
+        }
+
+        function redirTwitter() { 
+          window.location.href = "https://twitter.com/tanmraa"
+        }
+      </script>
+
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
